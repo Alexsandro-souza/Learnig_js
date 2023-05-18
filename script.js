@@ -1,8 +1,7 @@
 
-const carros = ('Gol' Palio', 'Corsa' Celta);
-//const newCarros = carros.push('oi');
+const carros = {'Gol': 'Palio' , 'Corsa': 'Celta'};
 
-//console.log(newCarros)
+
 
 /*nomeCarros = ()=>{
     if(resultado = undefined){
@@ -25,3 +24,12 @@ nomeCarros();*/
 && E
 || Ou
 */
+
+//Funções
+
+texto = (text)=>{
+    console.log('Oi, o texto é : ', text);
+}
+
+
+texto('I love')
