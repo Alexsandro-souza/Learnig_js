@@ -53,7 +53,22 @@ if(dia == 4){
     console.log(dia);
 }else{
     console.log("Hoje não é sexta")
-}*/
+
 var el = document.getElementById('test');
 
-el.innerText='OI, eu estou sendo editado';
+var div = el.innerText = 'OI, eu estou sendo editado';
+}*/
+
+const div = document.querySelector('.test');
+const span = document.getElementsByTagName("span")[0];
+
+span.addEventListener('click',()=>{    
+    if(div.classList.contains('hide')){
+        div.classList.remove('hide');
+        span.innerText="Ver mais!";
+    }
+    else{
+        div.classList.add('hide');
+        span.innerText="Ver menos!";
+    }
+})
