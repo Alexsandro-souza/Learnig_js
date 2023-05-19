@@ -42,13 +42,18 @@ for(a = 0; a < 5; a++){ //Diferente do while o for resume todos os parametros nu
 }*/
 
 //Manupulando datas
-
+/*
 const data = new Date;
-let dia = data.getDay();
+let dia = data.getTime()/60;
+let dia2 = (dia/60)/60;
+console.log(dia2)
 
 if(dia == 4){
     dia = "Sexta"
     console.log(dia);
 }else{
     console.log("Hoje não é sexta")
-}
+}*/
+var el = document.getElementById('test');
+
+el.innerText='OI, eu estou sendo editado';
